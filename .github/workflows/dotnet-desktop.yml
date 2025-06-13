@@ -29,7 +29,7 @@ jobs:
     - name: Pack
       run: dotnet pack -c Release --no-build --output .
     - name: Push
-      run: dotnet nuget push "*.nupkg" --api-key ${{secrets.KEY}} --source https://nuget.pkg.github.com/dsniels/index.json
+      run: dotnet nuget push "*.nupkg" --api-key ${{secrets.KEY}} --source https://nuget.pkg.github.com/dsniels/index.json --skip-duplicate
 
 
 
