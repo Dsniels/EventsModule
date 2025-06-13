@@ -1,0 +1,4 @@
+**/bin/Debug/**/appsettings.json
+**/bin/Release/**/appsettings.json
+bin/
+obj/
