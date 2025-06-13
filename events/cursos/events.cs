@@ -1,6 +1,6 @@
 
 
-using events.cursos;
+namespace events.cursos;
 
 public record CursoNotFound();
 
